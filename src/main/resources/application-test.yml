@@ -1,0 +1,16 @@
+# DataSource Config
+spring:
+  devtools:
+    restart:
+      enabled: false
+
+  datasource:
+    url: jdbc:mysql://192.168.10.213:3306/cms?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: gaodeyang
+
+  redis:
+    host: 192.168.10.241
+    port: 6379
+    password:
+    timeout: 10000ms
